@@ -11,7 +11,7 @@ class InputView {
 
     fun inputCountMessage(): String {
         println("시도할 횟수는 몇 회인가요?")
-        val count = Console.readLine()
-        return count
+        val tryCount = Console.readLine()
+        return tryCount
     }
 }
